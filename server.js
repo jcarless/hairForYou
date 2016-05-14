@@ -31,7 +31,7 @@ app.use(express.static(staticContentFolder));
 require("./app/routes/htmlRoutes.js")(app)
 
 // start the server
-var PORT = process.env.PORT || 1988;
+var PORT = process.env.PORT || 3000;
 app.listen(PORT, function(){
 	console.log('Find the magic at port: ' + PORT);
-})
+});

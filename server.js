@@ -28,7 +28,7 @@ app.use(express.static(staticContentFolder));
 
 
 // require the html path
-require("./app/routes/htmlRoutes.js")(app)
+require("./app/routes/htmlRoutes.js")(app);
 
 // start the server
 var PORT = process.env.PORT || 3000;

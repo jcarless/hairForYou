@@ -1,15 +1,35 @@
 // initial requires
 var express = require('express');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+var Emails = require('./app/model/emails.model');
+var logger = require('morgan');
 
-// setup the express app
+
+
 var app = express();
+
+
 
 // use body-parser to help express handle requests
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
+
+//Database configuration
+mongoose.connect('mongodb://admin:admin@ds019033.mlab.com:19033/hairtocare');
+var db = mongoose.connection;
+
+app.use(logger('dev'));
+
+
+db.on('error', function(err) {
+	console.log('Mongoose Error: ', err);
+});
+db.once('open', function() {
+	console.log('Mongoose connection successful.');
+});
 
 // // set up handlebars for express
 // var exphbs = require('express-handlebars');

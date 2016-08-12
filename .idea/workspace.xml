@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbd87e16-c9c0-48b9-815d-0667b0340b8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/emails.model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/index.html" afterPath="$PROJECT_DIR$/app/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes/htmlRoutes.js" afterPath="$PROJECT_DIR$/app/routes/htmlRoutes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-    </list>
+    <list default="true" id="dbd87e16-c9c0-48b9-815d-0667b0340b8c" name="Default" comment="" />
     <ignored path="hairForYou.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -299,12 +291,12 @@
       <workItem from="1463406306438" duration="134000" />
       <workItem from="1463418620240" duration="115000" />
       <workItem from="1463538401390" duration="254000" />
-      <workItem from="1464451235674" duration="8007000" />
+      <workItem from="1464451235674" duration="8244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14019000" />
+    <option name="totallyTimeSpent" value="14256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

@@ -9,6 +9,34 @@ module.exports = function(app){
 
     });
 
+    app.get('/home', function(req, res){
+        res.sendFile(path.join(__dirname + '/../public/home.html'));
+
+    });
+
+    app.get('/about', function(req, res){
+        res.sendFile(path.join(__dirname + '/../public/about.html'));
+
+    });
+
+    app.get('/gallery', function(req, res){
+        res.sendFile(path.join(__dirname + '/../public/gallery.html'));
+
+    });
+
+    app.get('/blog', function(req, res){
+        res.sendFile(path.join(__dirname + '/../public/blog.html'));
+
+    });
+
+    app.get('/contact', function(req, res){
+        res.sendFile(path.join(__dirname + '/../public/contact.html'));
+
+    });
+
+
+    // POST ROUTES
+
     app.post('/', function(req, res){
        var newEmail = new  Emails();
 
@@ -28,3 +56,4 @@ module.exports = function(app){
     });
 
 };
+
